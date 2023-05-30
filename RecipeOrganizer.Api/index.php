@@ -1,9 +1,10 @@
 <?php
 
 require_once "DatabaseConnection.php";
+require_once "EnvLoader.php";
 
 // Create an instance of the database connection
-$database = new DatabaseConnection('localhost', 'username', 'password', 'dnndxydh_RecipeApp');
+$database = new DatabaseConnection('localhost', getenv("USER"), getenv("PASSWORD"), 'dnndxydh_RecipeApp');
 $database->connect();
 $connection = $database->getConnection();
 
