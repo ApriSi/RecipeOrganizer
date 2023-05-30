@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeOrganizer", "RecipeOrganizer\RecipeOrganizer.csproj", "{467335C5-B209-4CC0-BBD7-B95F43F517B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeOrganizer.Android", "RecipeOrganizer.Android\RecipeOrganizer.Android.csproj", "{467335C5-B209-4CC0-BBD7-B95F43F517B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeOrganizer.Core", "RecipeOrganizer.Core\RecipeOrganizer.Core.csproj", "{633587DB-80C4-45A0-8197-BEAC2FBCBF53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,5 +16,9 @@ Global
 		{467335C5-B209-4CC0-BBD7-B95F43F517B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{467335C5-B209-4CC0-BBD7-B95F43F517B2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{467335C5-B209-4CC0-BBD7-B95F43F517B2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{633587DB-80C4-45A0-8197-BEAC2FBCBF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633587DB-80C4-45A0-8197-BEAC2FBCBF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633587DB-80C4-45A0-8197-BEAC2FBCBF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633587DB-80C4-45A0-8197-BEAC2FBCBF53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
